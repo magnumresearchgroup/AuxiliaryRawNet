@@ -84,13 +84,13 @@ Explanations can be found here: [t-DCF](https://arxiv.org/abs/1804.09618)
 |   | LFCC        |             |-     | 2.869 | 0.0786 |
 |   | CQT         |             |-     | 2.502 | 0.0743 |
 | [Rawnet2](https://ieeexplore.ieee.org/abstract/document/9414234) | Raw waveforms |Rawnet2 |-     | 5.13   | 0.1175|
-|ARawNet|Mel-Spectrogram  | [XVector](https://ieeexplore.ieee.org/abstract/document/8461375)  | :heavy_check_mark:  | **1.32**| **0.03894**| 
+|ARawNet|Mel-Spectrogram  | [XVector](https://ieeexplore.ieee.org/abstract/document/8461375)  |  :white_check_mark: | **1.32**| **0.03894**| 
 |   |             |             |   -   |    2.39320    |    0.06875   |
-| ARawNet  |  Mel-Spectrogram | [ECAPA-TDNN](https://arxiv.org/abs/2005.07143)   | :heavy_check_mark:|   **1.39** | **0.04316**   |
+| ARawNet  |  Mel-Spectrogram | [ECAPA-TDNN](https://arxiv.org/abs/2005.07143)   | :white_check_mark: |   **1.39** | **0.04316**   |
 |   |             |             |   -   |      2.11 | 0.06425   |
-| ARawNet |     CQT    |   XVector   |  :heavy_check_mark: |   **1.74**| **0.05194**      |
+| ARawNet |     CQT    |   XVector   |  :white_check_mark: |   **1.74**| **0.05194**      |
 |   |             |             |   -   |     3.39875 | 0.09510     |
-| ARawNet  |      CQT  |  ECAPA-TDNN  | :heavy_check_mark: |   **1.11**| **0.03645**   |
+| ARawNet  |      CQT  |  ECAPA-TDNN  |  :white_check_mark: |   **1.11**| **0.03645**   |
 |   |             |             |    -  |   1.72667 | 0.05077      |
 
 
@@ -99,9 +99,9 @@ Explanations can be found here: [t-DCF](https://arxiv.org/abs/1804.09618)
 | --- | --- | --- | --- |
 Rawnet2 | - | 25.43 M | 7.61 GMac
 Res2Net | - |  0.92 M | 1.11 GMac
-XVector | :heavy_check_mark: | 5.81 M  | 2.71 GMac
+XVector | :white_check_mark: | 5.81 M  | 2.71 GMac
 XVector | - |  4.66M | 1.88 GMac
-ECAPA-TDNN | :heavy_check_mark:  | 7.18 M | 3.19 GMac
+ECAPA-TDNN |  :white_check_mark:  | 7.18 M | 3.19 GMac
 ECAPA-TDNN | - | 6.03M |  2.36 GMac
 
 
