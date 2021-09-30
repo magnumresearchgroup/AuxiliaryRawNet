@@ -1,6 +1,6 @@
 # Overview
 
-This repository is an implementation of the Auxiliary Raw Net (ARawNet), which is ASVSpoof detection system taking both raw waveform and handcrafted features as inputs, with a limited increment of computational costs. The [paper](https://arxiv.org/abs/2109.02773) can be checked here.
+This repository is an implementation of the Auxiliary Raw Net (ARawNet), which is ASVSpoof detection system taking both raw waveform and handcrafted features as inputs,to balance the trade-off between performance and model complexity. The [paper](https://arxiv.org/abs/2109.02773) can be checked here.
 
 The model performance is tested on the ASVSpoof 2019 Dataset.
 
