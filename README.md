@@ -4,6 +4,9 @@ This repository is an implementation of the Auxiliary Raw Net (ARawNet), which i
 
 The model performance is tested on the ASVSpoof 2019 Dataset.
 
+
+![Overview](imgs/ARawNet-model-structure.png)
+
 ## Setup 
 
 ### Environment
@@ -92,6 +95,14 @@ Explanations can be found here: [t-DCF](https://arxiv.org/abs/1804.09618)
 
 
 
+| Main Encoder | Auxiliary Encoder | Parameters | MACs |
+| --- | --- | --- | --- |
+Rawnet2 | - | 25.43 M | 7.61 GMac
+Res2Net | - |  0.92 M | 1.11 GMac
+XVector | :heavy_check_mark: | 5.81 M  | 2.71 GMac
+XVector | - |  4.66M | 1.88 GMac
+ECAPA-TDNN | :heavy_check_mark:  | 7.18 M | 3.19 GMac
+ECAPA-TDNN | - | 6.03M |  2.36 GMac
 
 
 
